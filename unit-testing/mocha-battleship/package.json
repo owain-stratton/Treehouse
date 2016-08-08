@@ -1,0 +1,19 @@
+{
+  "name": "mocha-battleship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main-test.js",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch ./test ./",
+    "test:watch:PlayerStatus": "mocha --watch ./test/player_test.js ./game_logic/player_methods.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
