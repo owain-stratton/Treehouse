@@ -1,0 +1,21 @@
+{
+  "name": "angularjs-workshop",
+  "version": "0.0.1",
+  "description": "Workshop using AngularJS to interact with the Dribbble API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Owain Stratton",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "glob": "^7.0.5",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
