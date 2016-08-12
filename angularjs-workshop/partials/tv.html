@@ -1,0 +1,8 @@
+<div>
+  <h2>{{tv.name | uppercase}}</h2>
+  <h4>Released: {{tv.first_air_date | TMDbDate:"d MMM yyyy"}}</h4>
+  <p>{{tv.overview}}</p>
+  <p>Popularity score: {{tv.popularity}}</p>
+  
+  <img ng-src="http://image.tmdb.org/t/p/w500{{tv.backdrop_path}}">
+</div>
