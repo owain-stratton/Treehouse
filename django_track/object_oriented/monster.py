@@ -46,6 +46,7 @@ class Goblin(Monster):
 
 
 class Troll(Monster):
+    
     max_hp = 4
     max_xp = 5
     sound = "growl"
