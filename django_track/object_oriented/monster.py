@@ -45,13 +45,14 @@ class Goblin(Monster):
     sound = "squeek"
 
 
+class Troll(Monster):
+    max_hp = 4
+    max_xp = 5
+    sound = "growl"
 
 
 
-
-
-troll = Monster(hp=500)
-troll.hp
-
-azog = Goblin()
-azog.hp
+class Dragon(Monster):
+    max_hp = 8
+    max_xp = 19
+    weapon = "firebreath"
